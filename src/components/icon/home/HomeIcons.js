@@ -32,9 +32,8 @@ import theme from '../../../theme/theme';
 // `;
 
 const HomeIcons = styled.img`
-    height: 5em;
-    width: 5em;
-    fill-opacity: 0.8;
+    height: 8em;
+    width: 8em;
     padding: 1.8em;
     margin-left : 1.5em;  
     margin-top:0.3em;  

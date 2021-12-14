@@ -20,7 +20,7 @@ import { FlexedRow, FlexedCol } from "./FlexedRow";
 export default function Home() {
   return (
     <div style={{ background: theme.colors.base, marginBottom: "0.8em" }}>
-      <TopnavFlex home />
+      {/* <TopnavFlex home /> */}
       <HomeContainer>
         <FlexedRow>
           {/* Student */}
@@ -72,7 +72,7 @@ export default function Home() {
             <BasicCard>
               <HomeIcons src="https://img.icons8.com/cute-clipart/150/000000/calendar.png" />
               <Heading3 style={{ textAlign: "center" }}>
-                Academic Calendar
+                 Calendar
               </Heading3>
             </BasicCard>
           </FlexedCol>
@@ -113,7 +113,7 @@ export default function Home() {
             <BasicCard>
               <HomeIcons src="https://img.icons8.com/color/150/000000/sales-channels.png" />
               <Heading3 style={{ textAlign: "center" }}>
-                Clubs&nbsp;&&nbsp;Organizations
+                Clubs
               </Heading3>
             </BasicCard>
           </FlexedCol>
@@ -134,9 +134,8 @@ export default function Home() {
             </BasicCard>
           </FlexedCol>
         </FlexedRow>
-        <br/>
-        <br/>
-        
+        <br />
+        <br />
       </HomeContainer>
       {/* <FooterFlex /> */}
     </div>

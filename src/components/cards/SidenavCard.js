@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import theme from '../../theme/theme'
-import NavBox from '../sidebar/NavBox'
+// import NavBox from '../sidebar/NavBox'
 
 const SidenavCard = styled.div`
     background: ${theme.colors.sidebar};
